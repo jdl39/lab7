@@ -10,6 +10,7 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$('.project a').click(function(e) {
+
 		// Prevent following the link
 		e.preventDefault();
 
